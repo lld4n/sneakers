@@ -1,0 +1,38 @@
+.header {
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  color: #dcdcdc;
+  text-align: center;
+  animation: anim 5s infinite;
+}
+
+@keyframes anim {
+  from {
+    color: #dcdcdc;
+  }
+  50% {
+    color: #000000;
+  }
+  to {
+    color: #dcdcdc;
+  }
+}
+
+@media (max-width: 1900px) {
+  .header {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .header {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .header {
+    display: none;
+  }
+}
