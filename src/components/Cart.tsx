@@ -59,6 +59,10 @@ export default function Cart() {
     }
   }
 
+  if (cartSlice.cart.length === 0) {
+    return <div className="cart__empty">Cart is empty</div>;
+  }
+
   return (
     <div className="cart">
       <div className="cart__left">
