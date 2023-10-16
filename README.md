@@ -20,3 +20,4 @@
 - axios
 - scss
 - redux
+- mockapi
