@@ -85,12 +85,14 @@ export default function Cart() {
                     likes.includes(el.id)
                       ? () => dispatch(removeElem(el.id))
                       : () => dispatch(addElem(el.id))
-                  }>
+                  }
+                >
                   {likes.includes(el.id) ? 'remove from' : 'add to'} likes
                 </button>
                 <button
                   className="cart__btn cart__btn-remove"
-                  onClick={() => dispatch(removeElemCart(i))}>
+                  onClick={() => dispatch(removeElemCart(i))}
+                >
                   remove
                 </button>
               </div>
@@ -121,7 +123,8 @@ export default function Cart() {
             selectedPaymentMethod === paymentMethods.length - 1
               ? setSelectedPaymentMethod(0)
               : setSelectedPaymentMethod(selectedPaymentMethod + 1)
-          }>
+          }
+        >
           <div className="cart__block-text">Payment</div>
           <div className="cart__block-text">{paymentMethods[selectedPaymentMethod]}</div>
           <div className="cart__white cart__block-text">Click to choose</div>
@@ -161,7 +164,8 @@ export default function Cart() {
           })}
           <div
             className="cart__element"
-            style={{ display: cartSlice.cart.length ? 'flex' : 'none' }}>
+            style={{ display: cartSlice.cart.length ? 'flex' : 'none' }}
+          >
             <div className="cart__element-left">Subtotal</div>
             <div className="cart__element-left">{cartSlice.subtotal} $</div>
           </div>
@@ -173,7 +177,8 @@ export default function Cart() {
           </div>
           <div
             className="cart__right-element cart__element-btn"
-            onClick={() => setSelectedTip(selectedTip === tips.length - 1 ? 0 : selectedTip + 1)}>
+            onClick={() => setSelectedTip(selectedTip === tips.length - 1 ? 0 : selectedTip + 1)}
+          >
             <div className="cart__element-left">Tip</div>
             <div className="cart__gray cart__element-left">Click to edit</div>
             <div className="cart__element-left">{getTipString()} $</div>

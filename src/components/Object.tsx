@@ -49,7 +49,8 @@ export default function Object() {
                     <div
                       key={i}
                       className={selectedSize === i ? 'object__size--active' : 'object__size'}
-                      onClick={() => setSelectedSize(i)}>
+                      onClick={() => setSelectedSize(i)}
+                    >
                       {el}
                     </div>
                   );
@@ -73,7 +74,8 @@ export default function Object() {
                       size: item.sizes[selectedSize],
                     }),
                   )
-                }>
+                }
+              >
                 add to cart
               </button>
               <button
@@ -82,7 +84,8 @@ export default function Object() {
                   likes.includes(Number(item.id))
                     ? () => dispatch(removeElem(Number(item.id)))
                     : () => dispatch(addElem(Number(item.id)))
-                }>
+                }
+              >
                 {likes.includes(Number(item.id)) ? 'remove from' : 'add to'} likes
               </button>
             </div>

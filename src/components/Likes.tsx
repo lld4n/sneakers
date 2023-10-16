@@ -25,6 +25,7 @@ export default function Likes() {
             if (likes.includes(Number(el.id))) {
               return <Item key={i} {...el} />;
             }
+            return '';
           })
         : [...new Array(6)].map((el, i) => <ItemSkeleton key={i} />)}
     </div>

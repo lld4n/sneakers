@@ -8,7 +8,7 @@ export default function FooterBottom() {
         <div className="footer__bottom-logo">sneakers</div>
       </Link>
       <div className="footer__bottom-credits">
-        created by <a href="https://google.com">lldan</a>
+        created by <a href="https://lldan.ru">lldan</a>
       </div>
     </div>
   );

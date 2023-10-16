@@ -26,7 +26,8 @@ export default function FooterTop() {
         onSubmit={(event) => {
           event.preventDefault();
           navigate('/search/' + searchValue);
-        }}>
+        }}
+      >
         <input
           placeholder="Nike Air Max Pulse..."
           className="footer__top-input"
@@ -39,7 +40,8 @@ export default function FooterTop() {
             height="24px"
             viewBox="0 0 24 24"
             fill="none"
-            xmlns="http://www.w3.org/2000/svg">
+            xmlns="http://www.w3.org/2000/svg"
+          >
             <path
               d="M15.7955 15.8111L21 21M18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5Z"
               stroke="#000000"
@@ -55,7 +57,8 @@ export default function FooterTop() {
           <button
             className={
               location.pathname === '/cart' ? 'footer__top-btn--active' : 'footer__top-btn'
-            }>
+            }
+          >
             cart
           </button>
           <div style={{ display: cart.length ? 'flex' : 'none' }} className="footer__top-count">
@@ -66,7 +69,8 @@ export default function FooterTop() {
           <button
             className={
               location.pathname === '/likes' ? 'footer__top-btn--active' : 'footer__top-btn'
-            }>
+            }
+          >
             likes
           </button>
           <div style={{ display: likes.length ? 'flex' : 'none' }} className="footer__top-count">
