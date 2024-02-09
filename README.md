@@ -3,7 +3,7 @@
 <div align="center">
 <a href="http://sneakers.lldan.ru/">sneakers.lldan.ru</a>
 </div>
-
+<br>
 <p align="center">первый проект, который я написал на react. для получения информации о кроссовках использовал заготовленный mockapi</p>
 
 <h3 align="center">технологии</h3>
