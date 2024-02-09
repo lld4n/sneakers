@@ -5,7 +5,7 @@
 <a href="http://sneakers.lldan.ru/">sneakers.lldan.ru</a>
 </div>
 <br>
-<p align="center">первый проект, который я написал на react. для получения информации о кроссовках использовал заготовленный mockapi</p>
+<p align="center">Первый проект, который я написал на React. Для получения информации о кроссовках использовал заготовленный mockapi</p>
 
 https://github.com/lld4n/sneakers/assets/70964369/bd5ab3db-5aed-4e19-a0ba-2922f9590db6
 
