@@ -1,24 +1,30 @@
-# Мини-магазин кроссовок
+<h1 align="center">мини-магазин кроссовок</h1>
 
-[sneakers.lldan.ru](http://sneakers.lldan.ru/)
+<div align="center">
+<a href="http://sneakers.lldan.ru/">sneakers.lldan.ru</a>
+</div>
 
-первый проект, который я написал на react. для получения информации о кроссовках использовал заготовленный mockapi
+<p align="center">первый проект, который я написал на react. для получения информации о кроссовках использовал заготовленный mockapi</p>
 
-### технологии
+<h3 align="center">технологии</h3>
 
-- react
-- typescript
-- axios
-- scss
-- redux
-- mockapi
+<div align="center">
+react<br>
+typescript<br>
+axios<br>
+scss<br>
+redux<br>
+mockapi
+</div>
 
-### история
+<h3 align="center">история</h3>
 
-- 25 августа 2023
-  - начало работы над проектом
-- 28 августа 2023
-  - завершение работы над проектом
-- 16 октября 2023
-  - мелкий рефакторинг и публикация на vercel
+<div align="center">
+<code>25 августа 2023</code><br>
+начало работы над проектом<br><br>
+<code>28 августа 2023</code><br>
+завершение работы над проектом<br><br>
+<code>16 октября 2023</code><br>
+мелкий рефакторинг и публикация на vercel
+</div>
 
