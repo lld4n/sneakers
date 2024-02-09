@@ -1,10 +1,13 @@
 <h1 align="center">мини-магазин кроссовок</h1>
 
 <div align="center">
+<img src="https://i.ibb.co/FX8ZkCm/sneakers.png"/><br>
 <a href="http://sneakers.lldan.ru/">sneakers.lldan.ru</a>
 </div>
 <br>
 <p align="center">первый проект, который я написал на react. для получения информации о кроссовках использовал заготовленный mockapi</p>
+
+https://github.com/lld4n/sneakers/assets/70964369/bd5ab3db-5aed-4e19-a0ba-2922f9590db6
 
 <h3 align="center">технологии</h3>
 
